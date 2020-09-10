@@ -1,0 +1,7 @@
+C:\Users\melih\source\repos\OOP\Example37-2\bin\Debug\Example37-2.exe.config
+C:\Users\melih\source\repos\OOP\Example37-2\bin\Debug\Example37-2.exe
+C:\Users\melih\source\repos\OOP\Example37-2\bin\Debug\Example37-2.pdb
+C:\Users\melih\source\repos\OOP\Example37-2\obj\Debug\Example37-2.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example37-2\obj\Debug\Example37-2.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example37-2\obj\Debug\Example37-2.exe
+C:\Users\melih\source\repos\OOP\Example37-2\obj\Debug\Example37-2.pdb

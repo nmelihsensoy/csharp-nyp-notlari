@@ -1,0 +1,7 @@
+C:\Users\melih\source\repos\OOP\Example9\bin\Debug\Example9.exe.config
+C:\Users\melih\source\repos\OOP\Example9\bin\Debug\Example9.exe
+C:\Users\melih\source\repos\OOP\Example9\bin\Debug\Example9.pdb
+C:\Users\melih\source\repos\OOP\Example9\obj\Debug\Example9.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example9\obj\Debug\Example9.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example9\obj\Debug\Example9.exe
+C:\Users\melih\source\repos\OOP\Example9\obj\Debug\Example9.pdb

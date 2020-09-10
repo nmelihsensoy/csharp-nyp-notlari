@@ -1,0 +1,10 @@
+C:\Users\melih\source\repos\OOP\Example9-2\bin\Debug\Example9-2.exe.config
+C:\Users\melih\source\repos\OOP\Example9-2\bin\Debug\Example9-2.exe
+C:\Users\melih\source\repos\OOP\Example9-2\bin\Debug\Example9-2.pdb
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9-2.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9_2.Form1.resources
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9_2.Properties.Resources.resources
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9-2.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9-2.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9-2.exe
+C:\Users\melih\source\repos\OOP\Example9-2\obj\Debug\Example9-2.pdb

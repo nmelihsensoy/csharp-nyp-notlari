@@ -1,0 +1,10 @@
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.Form1.resources
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.Properties.Resources.resources
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example18\bin\Debug\Example18.exe.config
+C:\Users\melih\source\repos\OOP\Example18\bin\Debug\Example18.exe
+C:\Users\melih\source\repos\OOP\Example18\bin\Debug\Example18.pdb
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.exe
+C:\Users\melih\source\repos\OOP\Example18\obj\Debug\Example18.pdb

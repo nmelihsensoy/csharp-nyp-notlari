@@ -1,0 +1,9 @@
+C:\Users\melih\source\repos\OOP\Example12\bin\Debug\Example12.exe.config
+C:\Users\melih\source\repos\OOP\Example12\bin\Debug\Example12.exe
+C:\Users\melih\source\repos\OOP\Example12\bin\Debug\Example12.pdb
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.Form1.resources
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.Properties.Resources.resources
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.exe
+C:\Users\melih\source\repos\OOP\Example12\obj\Debug\Example12.pdb

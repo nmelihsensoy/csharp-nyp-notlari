@@ -1,0 +1,10 @@
+C:\Users\melih\source\repos\OOP\ConstructorExample1\bin\Debug\ConstructorExample1.exe.config
+C:\Users\melih\source\repos\OOP\ConstructorExample1\bin\Debug\ConstructorExample1.exe
+C:\Users\melih\source\repos\OOP\ConstructorExample1\bin\Debug\ConstructorExample1.pdb
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.Form1.resources
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.Properties.Resources.resources
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.exe
+C:\Users\melih\source\repos\OOP\ConstructorExample1\obj\Debug\ConstructorExample1.pdb

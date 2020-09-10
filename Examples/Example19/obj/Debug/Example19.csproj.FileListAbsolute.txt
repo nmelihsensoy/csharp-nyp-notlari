@@ -1,0 +1,10 @@
+C:\Users\melih\source\repos\Example19\bin\Debug\Example19.exe.config
+C:\Users\melih\source\repos\Example19\bin\Debug\Example19.exe
+C:\Users\melih\source\repos\Example19\bin\Debug\Example19.pdb
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.Form1.resources
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.Properties.Resources.resources
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.exe
+C:\Users\melih\source\repos\Example19\obj\Debug\Example19.pdb

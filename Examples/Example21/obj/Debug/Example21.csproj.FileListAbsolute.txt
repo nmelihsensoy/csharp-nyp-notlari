@@ -1,0 +1,7 @@
+C:\Users\melih\source\repos\OOP\Example21\bin\Debug\Example21.exe.config
+C:\Users\melih\source\repos\OOP\Example21\bin\Debug\Example21.exe
+C:\Users\melih\source\repos\OOP\Example21\bin\Debug\Example21.pdb
+C:\Users\melih\source\repos\OOP\Example21\obj\Debug\Example21.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example21\obj\Debug\Example21.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example21\obj\Debug\Example21.exe
+C:\Users\melih\source\repos\OOP\Example21\obj\Debug\Example21.pdb

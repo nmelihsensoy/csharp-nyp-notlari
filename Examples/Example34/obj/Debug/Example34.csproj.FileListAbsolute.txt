@@ -1,0 +1,10 @@
+C:\Users\melih\source\repos\OOP\Example34\bin\Debug\Example34.exe.config
+C:\Users\melih\source\repos\OOP\Example34\bin\Debug\Example34.exe
+C:\Users\melih\source\repos\OOP\Example34\bin\Debug\Example34.pdb
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.csprojAssemblyReference.cache
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.Form1.resources
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.Properties.Resources.resources
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.csproj.GenerateResource.cache
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.exe
+C:\Users\melih\source\repos\OOP\Example34\obj\Debug\Example34.pdb
