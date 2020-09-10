@@ -38,7 +38,7 @@ Yapılandırıcı (constructor), bir nesne oluşturulduğu anda bu nesneyi ilk k
 
 Bu uygulamada butona basıldığında User sınıfından bir nesne oluşturulmakta ve yapılandırıcı kullanılarak nesnenin değişkenlerine veri atandıktan sonra bu veriler ekrana yazılmaktadır.
 
-<img align="left" src="Screenshots\1.png" style="zoom: 80%;"   >
+<img src="Screenshots\1.png" style="zoom: 80%;"   >
 
 Sınıf içerisinde tanımlanması:
 
@@ -198,7 +198,7 @@ Bir yapılandırıcı başına 'static' eklenerek statik olarak tanımlanabilir.
 
 
 
-![](Screenshots\4.png) 
+![](/Screenshots/4.png) 
 
 
 
@@ -353,7 +353,7 @@ Statik bir sınıf içerisinde statik olmayarak tanımlanabilen tek yapı sını
 
 Bu uygulama bilgisayar özelliklerini gösteren bir uygulamayı taklit etmektedir.
 
-![](Screenshots\7.png) 
+![](/Screenshots/7.png) 
 
 
 
@@ -409,7 +409,7 @@ Bu uygulama girilen iki sayı ile toplama veya çarpma işlemi yaparak sonuçlar
 
 
 
-![](Screenshots\8.png) 
+![](/Screenshots/8.png) 
 
 
 
@@ -467,7 +467,7 @@ Bir nesnenin çöp toplayıcı tarafından tamamen yok edilmesinden hemen önce 
 
 Uygulamanın Çıktısı : 
 
-![](Screenshots\9.png) 
+![](/Screenshots/9.png) 
 
 
 
@@ -523,7 +523,7 @@ Bu uygulama sınıf yapılandırıcısı ve yıkıcısının çağırıldığın
 
 "Create Class Instance" butonuna basıldığında sınıftan nesne oluşturulur ve kullanıcıya mesaj kutusu gösterilir.
 
-![](Screenshots\9-2.png) 
+![](/Screenshots/9-2.png) 
 
 
 
@@ -533,7 +533,7 @@ Bu uygulama sınıf yapılandırıcısı ve yıkıcısının çağırıldığın
 
 
 
-![](Screenshots\9-3.png) 
+![](/Screenshots/9-3.png) 
 
 
 
@@ -568,7 +568,7 @@ Bir türden veya sınıftan yeni nesne üretmek için kullanılır.  Bu yolla ol
 
 Bu uygulamada butona basıldığında yeni bir nesne oluşturulur ve sınıfın bir metodu çalıştırılır.
 
-![](Screenshots\11.png) 
+![](/Screenshots/11.png) 
 
 
 
@@ -608,7 +608,7 @@ Uygulamanın Kaynak Kodları: [**Example11**]()
 
 Bu uygulama butona basıldığında ekrana bir öğrencinin bilgilerini getirir.
 
-![](Screenshots\12.png) 
+![](/Screenshots/12.png) 
 
 
 
@@ -663,7 +663,7 @@ Bu örnekte kullanıcıdan alınan isim bilgisine göre ekrana bir karşılama c
 
 
 
-![](Screenshots\13.png) 
+![](/Screenshots/13.png) 
 
 
 
@@ -719,7 +719,7 @@ Sadece yazılabilir özellikler okunamazlar. Değişkenlere aktarılabilirler fa
 
 Bu örnekte kullanıcıdan alınan kenar uzunluğu değerine göre bir küpün hacmi hesaplanmaktadır.
 
-![](Screenshots\14.png) 
+![](/Screenshots/14.png) 
 
 
 
@@ -783,11 +783,11 @@ Bu örnekte kullanıcıdan isim ve yaş bilgisi alınmakta, alınan yaş bilgisi
 
 
 
-![](Screenshots\15.png) 
+![](/Screenshots/15.png) 
 
 
 
-![](Screenshots\15-2.png) 
+![](/Screenshots/15-2.png) 
 
 
 
@@ -849,7 +849,7 @@ Bu uygulamada kullanıcıdan alınan isimler bir listeye eklenmekte ve araların
 
 
 
-![](Screenshots\16.png) 
+![](/Screenshots/16.png) 
 
 
 
@@ -926,7 +926,7 @@ Uygulamanın Kaynak Kodları: [**Example16**]()
 
 Bu uygulamada kullanıcıdan alınan isimler bir listeye eklenmekte ve aralarında arama yapılmaktadır.
 
-![](Screenshots\16.png) 
+![](/Screenshots/16.png) 
 
 
 Burada indeksleyici GET bloğunda string tipinde aldığı parametredeki elemanı "names" dizisinde arar, bulursa indisini bulamazsa -1 döndürür. Önceki örnekte yazılan indeksleyici aşırı yüklenerek tanımlanmıştır.
@@ -986,7 +986,7 @@ Bu uygulamada çeşitli sınıf ve değişkenlerin tipleri ekrana yazdırılır.
 
 
 
-![](Screenshots\18.png) 
+![](/Screenshots/18.png) 
 
 
 
@@ -1106,7 +1106,7 @@ Bu uygulama kullanıcıdan alınan verileri "Users.dat" isimli dosyaya kaydeder 
 
 
 
-![](Screenshots\19.png) 
+![](/Screenshots/19.png) 
 
 
 
@@ -1432,7 +1432,7 @@ Bu uygulama ekrana 10, 20 ve 10.5, 22.5 sayılarının toplamını ekrana yazdı
 
 
 
- ![](Screenshots\21.png) 
+ ![](/Screenshots/21.png) 
 
 
 
@@ -1492,7 +1492,7 @@ Bu uygulama kullanıcıdan iki sayı almakta ve aldığı iki sayıyı toplayıp
 
 
 
-![](Screenshots\22.png) 
+![](/Screenshots/22.png) 
 
 
 
@@ -1527,7 +1527,7 @@ Bu uygulama kullanıcıdan iki sayı almakta ve aldığı iki sayıyı toplayıp
 
 
 
-![](Screenshots\22.png) 
+![](/Screenshots/22.png) 
 
 
 
@@ -1572,7 +1572,7 @@ Bu uygulama kullanıcıdan iki sayı almakta ve aldığı iki sayıyı toplayıp
 
 
 
-![](Screenshots\22.png) 
+![](/Screenshots/22.png) 
 
 
 
@@ -1616,7 +1616,7 @@ Bu uygulama kullanıcıdan iki sayı almakta ve aldığı iki sayıyı toplayıp
 
 
 
-![](Screenshots\22.png) 
+![](/Screenshots/22.png) 
 
 
 
@@ -1672,7 +1672,7 @@ Bu uygulama kullanıcıdan iki sayı almakta ve aldığı iki sayıyı toplayıp
 
 
 
-![](Screenshots\22.png) 
+![](/Screenshots/22.png) 
 
 
 
@@ -1726,7 +1726,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -1764,7 +1764,7 @@ Bu uygulamada iki farklı tür aracın özellikleri yazdırılmaktadır.
 
 
 
-![](Screenshots\27-2.png) 
+![](/Screenshots/27-2.png) 
 
 
 
@@ -1864,7 +1864,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -1918,7 +1918,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -1976,7 +1976,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -2021,7 +2021,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -2075,7 +2075,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -2137,7 +2137,7 @@ Bu uygulama bir kişinin isim, konum ve okul bilgisini ekrana yazdırmaktadır.
 
 
 
-![](Screenshots\27.png) 
+![](/Screenshots/27.png) 
 
 
 
@@ -2361,7 +2361,7 @@ Bu uygulama basılan butona göre mesaj kutusu göstermektedir.
 
 
 
-![](Screenshots\35.png)  
+![](/Screenshots/35.png)  
 
 
 
@@ -2440,7 +2440,7 @@ Bu uygulama konsola x ve y'nin sahip olduğu değeri yazdırmaktadır.
 
 
 
-![](Screenshots\36.png) 
+![](/Screenshots/36.png) 
 
 
 
@@ -2504,7 +2504,7 @@ Bu uygulama taşıt türlerini ekrana yazmaktadır.
 
 
 
-![](Screenshots\36-2.png) 
+![](/Screenshots/36-2.png) 
 
 
 
@@ -2598,7 +2598,7 @@ Bu uygulama ekrana "Hello World!" yazmaktadır.
 
 
 
-![](Screenshots\37.png) 
+![](/Screenshots/37.png) 
 
 
 
@@ -2649,7 +2649,7 @@ Bu uygulama yapılan para transferlerini yazdırır.
 
 
 
-![](Screenshots\37-2.png) 
+![](/Screenshots/37-2.png) 
 
 
 
@@ -2735,7 +2735,7 @@ Bu uygulama kullanıcıdan alınmayan bir cümle ve kullanıcıdan alınan bir m
 
 
 
-![](Screenshots\39.png) 
+![](/Screenshots/39.png) 
 
 
 
@@ -2840,7 +2840,7 @@ Bu uygulama kullanıcıdan alınmayan bir cümle ve kullanıcıdan alınan bir m
 
 
 
-![](Screenshots\39.png) 
+![](/Screenshots/39.png) 
 
 
 
@@ -3032,7 +3032,7 @@ Bu uygulamada form içerisinde eleman harici bir yere tıklandığında bir mesa
 
 
 
-![](Screenshots\40.png) 
+![](/Screenshots/40.png) 
 
 
 
@@ -3096,7 +3096,7 @@ Bu uygulama kullanıcıdan sayı alır ve kullanıcı 10'dan büyük sayı girer
 
 
 
-![](Screenshots\41.png) 
+![](/Screenshots/41.png) 
 
 
 
@@ -3175,7 +3175,7 @@ Bu uygulamada basılan butona göre hangi fonksiyonun çalıştırıldığı ekr
 
 
 
-![](Screenshots\44.png) 
+![](/Screenshots/44.png) 
 
 
 
@@ -3210,7 +3210,7 @@ Bu uygulamada basılan butona göre hangi fonksiyonun çalıştırıldığı ekr
 
 
 
-![](Screenshots\44.png) 
+![](/Screenshots/44.png) 
 
 
 
@@ -3262,7 +3262,7 @@ Bu uygulama kullanıcıdan aldığı iki noktanın koordinatları sınır olacak
 
 
 
-![](Screenshots\50.png) 
+![](/Screenshots/50.png) 
 
 
 
@@ -3316,7 +3316,7 @@ Bu uygulama kullanıcıdan aldığı iki noktanın koordinatları sınır olacak
 
 
 
-![](Screenshots\50.png) 
+![](/Screenshots/50.png) 
 
 
 
@@ -3352,7 +3352,7 @@ Bu uygulama kullanıcıdan aldığı iki noktanın koordinatları sınır olacak
 
 
 
-![](Screenshots\50.png) 
+![](/Screenshots/50.png) 
 
 
 
@@ -3416,7 +3416,7 @@ Bu uygulama kullanıcıdan aldığı iki noktanın koordinatları sınır olacak
 
 
 
-![](Screenshots\50.png) 
+![](/Screenshots/50.png) 
 
 
 
@@ -3484,7 +3484,7 @@ Bu uygulama butona basıldığında ekrana "Hello World!" mesajı getirmektedir.
 
 
 
-![](Screenshots\55.png) 
+![](/Screenshots/55.png) 
 
 
 
@@ -3524,7 +3524,7 @@ Bu uygulamada kullanıcıdan tam sayı ve ondalıklı sayı listesine veri eklem
 
 
 
-![](Screenshots\51.png) 
+![](/Screenshots/51.png) 
 
 
 
@@ -3564,7 +3564,7 @@ Bu uygulamada kullanıcıdan tam sayı ve ondalıklı sayı dizisine veri ekleme
 
 
 
-![](Screenshots\52.png) 
+![](/Screenshots/52.png) 
 
 
 
@@ -3672,7 +3672,7 @@ Bu uygulamada kullanıcıdan tam sayı ve ondalıklı sayı dizisine veri ekleme
 
 
 
-![](Screenshots\52.png) 
+![](/Screenshots/52.png) 
 
 
 
@@ -3758,7 +3758,7 @@ Bu uygulama "Swap" butonuna basıldığında üzerindeki yazıları birbirleriyl
 
 
 
-![](Screenshots\54.png) 
+![](/Screenshots/54.png) 
 
 
 
