@@ -21,133 +21,135 @@
 
 <summary>İçindekiler</summary>
 
+- [C# ile Nesneye Dayalı Programlama](#c#-ile-nesneye-dayalı-programlama)
+  - [Yapılandırıcılar (Constructors)](#yapılandırıcılar-(constructors))
+      - [**Örnek 1**](#**örnek-1**)
+    - [Birden Fazla Yapılandırıcı Oluşturmak](#birden-fazla-yapılandırıcı-oluşturmak)
+      - [Örnek 2](#örnek-2)
+    - [Dizi Parametreli Yapılandırıcı Oluşturmak](#dizi-parametreli-yapılandırıcı-oluşturmak)
+      - [Örnek 3](#örnek-3)
+    - [Statik Yapılandırıcı (Static Constructors)](#statik-yapılandırıcı-(static-constructors))
+      - [Örnek 4](#örnek-4)
+  - [Statik Metotlar (Static Methods)](#statik-metotlar-(static-methods))
+      - [Örnek 5](#örnek-5)
+  - [Statik Sınıflar (Static Classes)](#statik-sınıflar-(static-classes))
+      - [Örnek 6](#örnek-6)
+    - [Statik Sınıf İçerisinde Başka Sınıflar Oluşturmak](#statik-sınıf-içerisinde-başka-sınıflar-oluşturmak)
+      - [Örnek 7](#örnek-7)
+    - [İç İçe Statik Sınıflar (**Static Nested Classes**)](#iç-içe-statik-sınıflar-(**static-nested-classes**))
+      - [Örnek 8](#örnek-8)
+  - [Yıkıcılar (**Destructors**)](#yıkıcılar-(**destructors**))
+      - [Örnek 9](#örnek-9)
+      - [Örnek 9-2](#örnek-9-2)
+  - [New Komutu](#new-komutu)
+      - [Örnek 11](#örnek-11)
+  - [This Komutu](#this-komutu)
+      - [Örnek 12](#örnek-12)
+  - [Sadece Okunabilir Özellik Tanımlamak (ReadOnly Property)](#sadece-okunabilir-özellik-tanımlamak-(readonly-property))
+      - [Örnek 13](#örnek-13)
+  - [Sadece Yazılabilir Özellik Tanımlamak (WriteOnly Property)](#sadece-yazılabilir-özellik-tanımlamak-(writeonly-property))
+      - [Örnek 14](#örnek-14)
+  - [Yazılabilen ve Okunabilen Özellik Tanımlamak](#yazılabilen-ve-okunabilen-özellik-tanımlamak)
+      - [Örnek 15](#örnek-15)
+  - [Indexer Oluşturmak](#ındexer-oluşturmak)
+      - [Örnek 16](#örnek-16)
+    - [String Indexli Indexer Oluşturmak](#string-ındexli-ındexer-oluşturmak)
+      - [Örnek 16](#örnek-16)
+  - [Typeof Komutu](#typeof-komutu)
+      - [Örnek 18](#örnek-18)
+  - [Sınıf Değerlerini Dosyaya Yazdırmak](#sınıf-değerlerini-dosyaya-yazdırmak)
+      - [Örnek 19](#örnek-19)
+  - [Sınıf İçerisinde Fonksiyonlar Oluşturmak](#sınıf-içerisinde-fonksiyonlar-oluşturmak)
+      - [Örnek 20](#örnek-20)
+    - [Parametre İçermeyen Fonksiyon Tanımlamak](#parametre-içermeyen-fonksiyon-tanımlamak)
+      - [Örnek 20](#örnek-20)
+    - [Parametreli Fonksiyon Tanımlamak](#parametreli-fonksiyon-tanımlamak)
+      - [Örnek 20](#örnek-20)
+    - [Dizi Parametreli Fonksiyon Tanımlamak](#dizi-parametreli-fonksiyon-tanımlamak)
+      - [Örnek 20](#örnek-20)
+    - [Birden Fazla Parametreli Fonksiyon Tanımlamak](#birden-fazla-parametreli-fonksiyon-tanımlamak)
+      - [Örnek 20](#örnek-20)
+    - [Fonksiyonlarda Dizi Değişken Değeri Döndürmek](#fonksiyonlarda-dizi-değişken-değeri-döndürmek)
+      - [Örnek 20](#örnek-20)
+  - [Metotların Aşırı Yüklenmesi](#metotların-aşırı-yüklenmesi)
+      - [Örnek 21](#örnek-21)
+  - [Sınıf İçerisinde Prosedür Oluşturmak](#sınıf-içerisinde-prosedür-oluşturmak)
+      - [Örnek 22](#örnek-22)
+    - [Parametre İçermeyen Prosedür](#parametre-içermeyen-prosedür)
+      - [Örnek 22](#örnek-22)
+    - [Parametreli Prosedür](#parametreli-prosedür)
+      - [Örnek 22](#örnek-22)
+    - [Ref Bildirili Prosedürler](#ref-bildirili-prosedürler)
+      - [Örnek 22](#örnek-22)
+    - [Out Bildirili Prosedür](#out-bildirili-prosedür)
+      - [Örnek 22](#örnek-22)
+  - [Kalıtım](#kalıtım)
+      - [Örnek 27](#örnek-27)
+      - [Örnek 27-2](#örnek-27-2)
+    - [Private Bildiri Yapmak](#private-bildiri-yapmak)
+      - [Örnek 27](#örnek-27)
+    - [Public Bildiri Yapmak](#public-bildiri-yapmak)
+      - [Örnek 27](#örnek-27)
+    - [Internal Bildiri Yapmak](#ınternal-bildiri-yapmak)
+      - [Örnek 27](#örnek-27)
+    - [Protected Bildiri Yapmak](#protected-bildiri-yapmak)
+      - [Örnek 27](#örnek-27)
+    - [Partial Class Bildirisi](#partial-class-bildirisi)
+      - [Örnek 27](#örnek-27)
+    - [Base Komutu](#base-komutu)
+      - [Örnek 27](#örnek-27)
+  - [Virtual Ve Override Metod Tanımlamak](#virtual-ve-override-metod-tanımlamak)
+      - [Örnek 34](#örnek-34)
+    - [Override Metod Tanımlamak](#override-metod-tanımlamak)
+      - [Örnek 34](#örnek-34)
+  - [Değişken Tanımlarken Farklı Class'lar Kullanmak](#değişken-tanımlarken-farklı-class'lar-kullanmak)
+      - [Örnek 35](#örnek-35)
+  - [Abstract Class'lar](#abstract-class'lar)
+      - [Örnek 36](#örnek-36)
+      - [Örnek 36-2](#örnek-36-2)
+  - [Interface](#ınterface)
+      - [Örnek 37](#örnek-37)
+      - [Örnek 37-2](#örnek-37-2)
+  - [Delege Tanımlamaları](#delege-tanımlamaları)
+    - [Örnek 39](#örnek-39)
+    - [Delege İle Bizden Fazla Metodu Aynı Anda Çağırmak](#delege-ile-bizden-fazla-metodu-aynı-anda-çağırmak)
+    - [Örnek 39](#örnek-39)
+    - [Delege İle Kontrollere Yordam Belirlemek](#delege-ile-kontrollere-yordam-belirlemek)
+      - [Örnek 40](#örnek-40)
+  - [Event Oluşturmak](#event-oluşturmak)
+      - [Örnek 41](#örnek-41)
+  - [Ad Alanları (Namespaces)](#ad-alanları-(namespaces))
+      - [Örnek 48](#örnek-48)
+    - [İç İçe Ad Alanları (Nested Namespaces)](#iç-içe-ad-alanları-(nested-namespaces))
+      - [Örnek 48](#örnek-48)
+  - [Yapı (Struct)](#yapı-(struct))
+      - [Örnek 50](#örnek-50)
+    - [Yapı İçerisinde Metot Oluşturmak (Methods in Struct)](#yapı-içerisinde-metot-oluşturmak-(methods-in-struct))
+      - [Örnek 50](#örnek-50)
+    - [Yapı İçerisinde Başka Bir Yapı Oluşturmak (Nested Struct)](#yapı-içerisinde-başka-bir-yapı-oluşturmak-(nested-struct))
+      - [Örnek 50](#örnek-50)
+    - [Yapılarda Yapılandırıcı (Constructurs in Struct)](#yapılarda-yapılandırıcı-(constructurs-in-struct))
+      - [Örnek 50](#örnek-50)
+    - [Yapılarda Kalıtım](#yapılarda-kalıtım)
+      - [Örnek 55](#örnek-55)
+  - [Generic İfadeler](#generic-ifadeler)
+      - [Örnek 51](#örnek-51)
+    - [Generic Sınıflar](#generic-sınıflar)
+      - [Örnek 52](#örnek-52)
+    - [Generic Sınıflar İçerisindeki Static Metodları İşletmek](#generic-sınıflar-içerisindeki-static-metodları-işletmek)
+      - [Örnek 52](#örnek-52)
+    - [Generic Metodlar (Generic Methods)](#generic-metodlar-(generic-methods))
+      - [Örnek 54](#örnek-54)
+  - [Kaynakça](#kaynakça)
+    - [Kitap](#kitap)
+    - [Web Sayfaları](#web-sayfaları)
+    - [Blog Yazıları](#blog-yazıları)
 
-- [Yapılandırıcılar (Constructors)](#yapılandırıcılar-constructors)
-    - [**Örnek 1**](#örnek-1)
-- [Birden Fazla Yapılandırıcı Oluşturmak](#birden-fazla-yapılandırıcı-oluşturmak)
-    - [Örnek 2](#örnek-2)
-- [Dizi Parametreli Yapılandırıcı Oluşturmak](#dizi-parametreli-yapılandırıcı-oluşturmak)
-    - [Örnek 3](#örnek-3)
-- [Statik Yapılandırıcı (Static Constructors)](#statik-yapılandırıcı-static-constructors)
-    - [Örnek 4](#örnek-4)
-- [Statik Metotlar (Static Methods)](#statik-metotlar-static-methods)
-	- [Örnek 5](#örnek-5)
-- [Statik Sınıflar (Static Classes)](#statik-sınıflar-static-classes)
-	- [Örnek 6](#örnek-6)
-- [Statik Sınıf İçerisinde Başka Sınıflar Oluşturmak](#statik-sınıf-i̇çerisinde-başka-sınıflar-oluşturmak)
-	- [Örnek 7](#örnek-7)
-- [İç İçe Statik Sınıflar (**Static Nested Classes**)](#i̇ç-i̇çe-statik-sınıflar-static-nested-classes)
-	- [Örnek 8](#örnek-8)
-- [Yıkıcılar (**Destructors**)](#yıkıcılar-destructors)
-	- [Örnek 9](#örnek-9)
-	- [Örnek 9-2](#örnek-9-2)
-- [New Komutu](#new-komutu)
-	- [Örnek 11](#örnek-11)
-- [This Komutu](#this-komutu)
-	- [Örnek 12](#örnek-12)
-- [Sadece Okunabilir Özellik Tanımlamak (ReadOnly Property)](#sadece-okunabilir-özellik-tanımlamak-readonly-property)
-	- [Örnek 13](#örnek-13)
-- [Sadece Yazılabilir Özellik Tanımlamak (WriteOnly Property)](#sadece-yazılabilir-özellik-tanımlamak-writeonly-property)
-	- [Örnek 14](#örnek-14)
-- [Yazılabilen ve Okunabilen Özellik Tanımlamak](#yazılabilen-ve-okunabilen-özellik-tanımlamak)
-	- [Örnek 15](#örnek-15)
-- [Indexer Oluşturmak](#indexer-oluşturmak)
-	- [Örnek 16](#örnek-16)
-- [String Indexli Indexer Oluşturmak](#string-indexli-indexer-oluşturmak)
-	- [Örnek 16](#örnek-16-1)
-- [Typeof Komutu](#typeof-komutu)
-	- [Örnek 18](#örnek-18)
-- [Sınıf Değerlerini Dosyaya Yazdırmak](#sınıf-değerlerini-dosyaya-yazdırmak)
-	- [Örnek 19](#örnek-19)
-- [Sınıf İçerisinde Fonksiyonlar Oluşturmak](#sınıf-i̇çerisinde-fonksiyonlar-oluşturmak)
-	- [Örnek 20](#örnek-20)
-- [Parametre İçermeyen Fonksiyon Tanımlamak](#parametre-i̇çermeyen-fonksiyon-tanımlamak)
-	- [Örnek 20](#örnek-20-1)
-- [Parametreli Fonksiyon Tanımlamak](#parametreli-fonksiyon-tanımlamak)
-	- [Örnek 20](#örnek-20-2)
-- [Dizi Parametreli Fonksiyon Tanımlamak](#dizi-parametreli-fonksiyon-tanımlamak)
-	- [Örnek 20](#örnek-20-3)
-- [Birden Fazla Parametreli Fonksiyon Tanımlamak](#birden-fazla-parametreli-fonksiyon-tanımlamak)
-	- [Örnek 20](#örnek-20-4)
-- [Fonksiyonlarda Dizi Değişken Değeri Döndürmek](#fonksiyonlarda-dizi-değişken-değeri-döndürmek)
-	- [Örnek 20](#örnek-20-5)
-- [Metotların Aşırı Yüklenmesi](#metotların-aşırı-yüklenmesi)
-	- [Örnek 21](#örnek-21)
-- [Sınıf İçerisinde Prosedür Oluşturmak](#sınıf-i̇çerisinde-prosedür-oluşturmak)
-	- [Örnek 22](#örnek-22)
-- [Parametre İçermeyen Prosedür](#parametre-i̇çermeyen-prosedür)
-	- [Örnek 22](#örnek-22-1)
-- [Parametreli Prosedür](#parametreli-prosedür)
-	- [Örnek 22](#örnek-22-2)
-- [Ref Bildirili Prosedürler](#ref-bildirili-prosedürler)
-	- [Örnek 22](#örnek-22-3)
-- [Out Bildirili Prosedür](#out-bildirili-prosedür)
-	- [Örnek 22](#örnek-22-4)
-- [Kalıtım](#kalıtım)
-	- [Örnek 27](#örnek-27)
-	- [Örnek 27-2](#örnek-27-2)
-- [Private Bildiri Yapmak](#private-bildiri-yapmak)
-	- [Örnek 27](#örnek-27-1)
-- [Public Bildiri Yapmak](#public-bildiri-yapmak)
-	- [Örnek 27](#örnek-27-2)
-- [Internal Bildiri Yapmak](#internal-bildiri-yapmak)
-	- [Örnek 27](#örnek-27-3)
-- [Protected Bildiri Yapmak](#protected-bildiri-yapmak)
-	- [Örnek 27](#örnek-27-4)
-- [Partial Class Bildirisi](#partial-class-bildirisi)
-	- [Örnek 27](#örnek-27-5)
-- [Base Komutu](#base-komutu)
-	- [Örnek 27](#örnek-27-6)
-- [Virtual Ve Override Metod Tanımlamak](#virtual-ve-override-metod-tanımlamak)
-	- [Örnek 34](#örnek-34)
-- [Override Metod Tanımlamak](#override-metod-tanımlamak)
-	- [Örnek 34](#örnek-34-1)
-- [Değişken Tanımlarken Farklı Class'lar Kullanmak](#değişken-tanımlarken-farklı-classlar-kullanmak)
-	- [Örnek 35](#örnek-35)
-- [Abstract Class'lar](#abstract-classlar)
-	- [Örnek 36](#örnek-36)
-	- [Örnek 36-2](#örnek-36-2)
-- [Interface](#interface)
-	- [Örnek 37](#örnek-37)
-	- [Örnek 37-2](#örnek-37-2)
-- [Delege Tanımlamaları](#delege-tanımlamaları)
-	- [Örnek 39](#örnek-39)
-	- [Delege İle Bizden Fazla Metodu Aynı Anda Çağırmak](#delege-i̇le-bizden-fazla-metodu-aynı-anda-çağırmak)
-	- [Örnek 39](#örnek-39-1)
-	- [Delege İle Kontrollere Yordam Belirlemek](#delege-i̇le-kontrollere-yordam-belirlemek)
-		- [Örnek 40](#örnek-40)
-- [Event Oluşturmak](#event-oluşturmak)
-	- [Örnek 41](#örnek-41)
-- [Ad Alanları (Namespaces)](#ad-alanları-namespaces)
-	- [Örnek 48](#örnek-48)
-- [İç İçe Ad Alanları (Nested Namespaces)](#i̇ç-i̇çe-ad-alanları-nested-namespaces)
-	- [Örnek 48](#örnek-48-1)
-- [Yapı (Struct)](#yapı-struct)
-	- [Örnek 50](#örnek-50)
-- [Yapı İçerisinde Metot Oluşturmak (Methods in Struct)](#yapı-i̇çerisinde-metot-oluşturmak-methods-in-struct)
-	- [Örnek 50](#örnek-50-1)
-- [Yapı İçerisinde Başka Bir Yapı Oluşturmak (Nested Struct)](#yapı-i̇çerisinde-başka-bir-yapı-oluşturmak-nested-struct)
-	- [Örnek 50](#örnek-50-2)
-- [Yapılarda Yapılandırıcı (Constructurs in Struct)](#yapılarda-yapılandırıcı-constructurs-in-struct)
-	- [Örnek 50](#örnek-50-3)
-- [Yapılarda Kalıtım](#yapılarda-kalıtım)
-	- [Örnek 55](#örnek-55)
-- [Generic İfadeler](#generic-i̇fadeler)
-	- [Örnek 51](#örnek-51)
-- [Generic Sınıflar](#generic-sınıflar)
-	- [Örnek 52](#örnek-52)
-- [Generic Sınıflar İçerisindeki Static Metodları İşletmek](#generic-sınıflar-i̇çerisindeki-static-metodları-i̇şletmek)
-	- [Örnek 52](#örnek-52-1)
-- [Generic Metodlar (Generic Methods)](#generic-metodlar-generic-methods)
-	- [Örnek 54](#örnek-54)
-- [Kaynakça](#kaynakça)
-	- [Kitap](#kitap)
-	- [Web Sayfaları](#web-sayfaları)
-	- [Blog Yazıları](#blog-yazıları)
 
 </details>
 
 <div style="page-break-after: always; break-after: page;"></div>
+
 
 ## Yapılandırıcılar (Constructors)
 
@@ -187,7 +189,7 @@ Nesne oluşturulurken çağırılması:
   User newUser = new User("A123", "JohnDoe");
  ```
 
-> Uygulamanın Kaynak Kodları:  [**Example1**]()
+> Uygulamanın Kaynak Kodları:  [**Example1**](/Examples/Example1)
 
 <div style="page-break-after: always; break-after: page;"></div>
 
@@ -239,7 +241,7 @@ Parametresiz Yapılandırıcı ile oluşturulan nesne.
 
 
 
-> Uygulamanın Kaynak Kodları:  [**Example2**]()
+> Uygulamanın Kaynak Kodları:  [**Example2**](/Examples/Example2)
 
 
 
@@ -301,7 +303,7 @@ var MainClass = new Main(this.Users); //nesne yaratıldı
 
 
 
-> Uygulamanın Kaynak Kodları:  [**Example3**]()
+> Uygulamanın Kaynak Kodları:  [**Example3**](/Examples/Example3)
 
 
 
@@ -373,7 +375,7 @@ class SomeClass
 
 
 
-> Uygulamanın Kaynak Kodları:  [**Example4**]()
+> Uygulamanın Kaynak Kodları:  [**Example4**](/Examples/Example4)
 
 
 
@@ -425,7 +427,7 @@ MyClass.storeResult(result);
 
 
 
-> Uygulamanın Kaynak Kodları:  [**Example5**]()
+> Uygulamanın Kaynak Kodları:  [**Example5**](/Examples/Example5)
 
 
 
@@ -462,7 +464,7 @@ result = Operation.sum(int.Parse(textBox1.Text), int.Parse(textBox2.Text));
 
 
 
-Uygulamanın Kaynak Kodları: [**Example6**]()
+> Uygulamanın Kaynak Kodları: [**Example6**](/Examples/Example6)
 
 
 
@@ -516,7 +518,7 @@ Görüldüğü gibi dış sınıf statik olmasına rağmen iç sınıftan nesne 
 
 
 
-Uygulamanın Kaynak Kodları: [**Example7**]()
+> Uygulamanın Kaynak Kodları: [**Example7**](/Examples/Example7)
 
 
 
@@ -576,7 +578,7 @@ Görüldüğü gibi iki sınıfın da metotlarına sınıf ismiyle ulaşılıyor
 
 
 
-Uygulamanın Kaynak Kodları: [**Example8**]()
+> Uygulamanın Kaynak Kodları: [**Example8**](/Examples/Example8)
 
 
 
@@ -632,7 +634,7 @@ public static void ClassInstance() {
 
 
 
-Uygulamanın Kaynak Kodları: [**Example9**]()
+> Uygulamanın Kaynak Kodları: [**Example9**](/Examples/Example9)
 
 
 
@@ -675,7 +677,7 @@ public class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example9-2**]()
+> Uygulamanın Kaynak Kodları: [**Example9-2**](/Examples/Example9-2)
 
 
 
@@ -717,7 +719,7 @@ MyClass1.helloWorld();
 
 
 
-Uygulamanın Kaynak Kodları: [**Example11**]()
+> Uygulamanın Kaynak Kodları: [**Example11**](/Examples/Example11)
 
 
 
@@ -768,7 +770,7 @@ Student1.showStudent();
 
 
 
-Uygulamanın Kaynak Kodları: [**Example12**]()
+> Uygulamanın Kaynak Kodları: [**Example12**](/Examples/Example12)
 
 
 
@@ -824,7 +826,7 @@ label3.Text = LoginClass.formalName;
 
 
 
-Uygulamanın Kaynak Kodları: [**Example13**]()
+> Uygulamanın Kaynak Kodları: [**Example13**](/Examples/Example13)
 
 
 
@@ -886,7 +888,7 @@ Görüldüğü gibi nesneye veri atanması işlemi "allDimensions" özelliği il
 
 
 
-Uygulamanın Kaynak Kodları: [**Example14**]()
+> Uygulamanın Kaynak Kodları: [**Example14**](/Examples/Example14)
 
 
 
@@ -942,7 +944,7 @@ class Licence
 
 
 
-Uygulamanın Kaynak Kodları: [**Example15**]()
+> Uygulamanın Kaynak Kodları: [**Example15**](/Examples/Example15)
 
 
 
@@ -1035,7 +1037,7 @@ UsersClass[4] = "Ada Lovelace";
 
 
 
-Uygulamanın Kaynak Kodları: [**Example16**]()
+> Uygulamanın Kaynak Kodları: [**Example16**](/Examples/Example16)
 
 
 
@@ -1085,7 +1087,7 @@ Burada eklenen liste içerisinde "Alan Turing" aranacak ve bulunursa bulunduğu 
 
 
 
-Uygulamanın Kaynak Kodları: [**Example16**]()
+> Uygulamanın Kaynak Kodları: [**Example16**](/Examples/Example16)
 
 
 
@@ -1213,7 +1215,7 @@ foreach (MemberInfo Member in memberList)
 
 
 
-Uygulamanın Kaynak Kodları: [**Example18**]()
+> Uygulamanın Kaynak Kodları: [**Example18**](/Examples/Example18)
 
 
 
@@ -1328,7 +1330,7 @@ label9.Text = user.country;
 
 
 
-Uygulamanın Kaynak Kodları: [**Example19**]()
+> Uygulamanın Kaynak Kodları: [**Example19**](/Examples/Example19)
 
 
 
@@ -1362,7 +1364,7 @@ Görüldüğü üzere sınıfın içinde "helloWorld" isimli bir değişken tan�
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**](/Examples/Example20)
 
 
 
@@ -1396,7 +1398,7 @@ class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**](/Examples/Example20)
 
 
 
@@ -1430,7 +1432,7 @@ class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**](/Examples/Example20)
 
 
 
@@ -1469,7 +1471,7 @@ class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**](/Examples/Example20)
 
 
 
@@ -1506,7 +1508,7 @@ class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**](/Examples/Example20)
 
 
 
@@ -1539,7 +1541,7 @@ class MyClass
 
 
 
-Uygulamanın Kaynak Kodları: [**Example20**]()
+> Uygulamanın Kaynak Kodları: [**Example20**]/Examples/Example20)
 
 
 
@@ -1599,7 +1601,7 @@ Görüldüğü üzere aynı metot ile iki farklı tipte toplama işlemi gerçekl
 
 
 
-Uygulamanın Kaynak Kodları: [**Example21**]()
+> Uygulamanın Kaynak Kodları: [**Example21**](/Examples/Example21)
 
 
 
@@ -1634,7 +1636,7 @@ class Operation
 
 
 
-Uygulamanın Kaynak Kodları: [**Example22**]()
+> Uygulamanın Kaynak Kodları: [**Example22**](/Examples/Example22)
 
 
 
@@ -1679,7 +1681,7 @@ Bu prosedür nesnenin içindeki "a", "b" ve "_result" isimli değişkenlerin de�
 
 
 
-Uygulamanın Kaynak Kodları: [**Example22**]()
+> Uygulamanın Kaynak Kodları: [**Example22**](/Examples/Example22)
 
 
 
@@ -1723,7 +1725,7 @@ Bu prosedür nesnenin içindeki "a" ve "b"  isimli değişkenlere parametre olar
 
 
 
-Uygulamanın Kaynak Kodları: [**Example22**]()
+> Uygulamanın Kaynak Kodları: [**Example22**](/Examples/Example22)
 
 
 
@@ -1779,7 +1781,7 @@ Ref parametre alan prosedürler kullanılırken de parametrenin önüne "ref" ek
 
 
 
-Uygulamanın Kaynak Kodları: [**Example22**]()
+> Uygulamanın Kaynak Kodları: [**Example22**](/Examples/Example22)
 
 
 
@@ -1833,7 +1835,7 @@ Bu prosedürde parametre olarak aldığı "a" ve "b" değerlerinin sadece poziti
 
 
 
-Uygulamanın Kaynak Kodları: [**Example22**]()
+> Uygulamanın Kaynak Kodları: [**Example22**](/Examples/Example22)
 
 
 
@@ -1877,7 +1879,7 @@ class Person : School
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2025,7 +2027,7 @@ Sınıfta bulunan  schoolId"  değişkeni ve "setSchool" metodu "private" bildir
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2083,7 +2085,7 @@ class Person : School
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2128,7 +2130,7 @@ class Person : School
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2182,7 +2184,7 @@ class School : Location
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2244,7 +2246,7 @@ partial class Person
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2308,7 +2310,7 @@ partial class Person
 
 
 
-Uygulamanın Kaynak Kodları: [**Example27**]()
+> Uygulamanın Kaynak Kodları: [**Example27**](/Examples/Example27)
 
 
 
@@ -2384,7 +2386,7 @@ Bu sınıf "Shape" sınıfından kalıtım almıştır.  Hesaplama yapılması i
 
 
 
-Uygulamanın Kaynak Kodları: [**Example34**]()
+> Uygulamanın Kaynak Kodları: [**Example34**](/Examples/Example34)
 
 
 
@@ -2468,7 +2470,7 @@ Bu sınıf "Shape" sınıfından kalıtım almıştır.  Hesaplama yapılması i
 
 
 
-Uygulamanın Kaynak Kodları: [**Example34**]()
+> Uygulamanın Kaynak Kodları: [**Example34**](/Examples/Example34)
 
 
 
@@ -2547,7 +2549,7 @@ Burada  "Class1" sınıfı "cl2" nesnesine boxing yapmıştır.
 
 
 
-Uygulamanın Kaynak Kodları: [**Example35**]()
+> Uygulamanın Kaynak Kodları: [**Example35**](/Examples/Example35)
 
 
 
@@ -2617,7 +2619,7 @@ Görüldüğü üzere bu sınıfta "BaseClass" sınıfından kalıtım alınmakt
 
 
 
-Uygulamanın Kaynak Kodları: [**Example36**]()
+> Uygulamanın Kaynak Kodları: [**Example36**](/Examples/Example36)
 
 
 
@@ -2695,7 +2697,7 @@ v.display();
 
 
 
-> Uygulamanın Kaynak Kodları: [**Example36-2**](
+> Uygulamanın Kaynak Kodları: [**Example36-2**](/Examples/Example36-2)
 
 
 
@@ -2762,7 +2764,7 @@ Burada "MainClass" sınıfı "IHello" arayüzünden türetilmekte ve "Main" meto
 
 
 
-Uygulamanın Kaynak Kodları: [**Example37**]()
+> Uygulamanın Kaynak Kodları: [**Example37**](/Examples/Example37)
 
 
 
@@ -2838,7 +2840,7 @@ Console.ReadLine();
 
 
 
-> Uygulamanın Kaynak Kodları: [**Example37-2**](
+> Uygulamanın Kaynak Kodları: [**Example37-2**](/Examples/Example37-2)
 
 
 
@@ -2947,7 +2949,7 @@ Burada metotda "strHandler" ismiyle tanımlanan delege "str" nesnesinin "loremRe
 
 
 
-Uygulamanın Kaynak Kodları: [**Example39**]()
+> Uygulamanın Kaynak Kodları: [**Example39**](/Examples/Example39)
 
 
 
@@ -3131,7 +3133,7 @@ string out = app.applyChain(text);
 
 
 
-Uygulamanın Kaynak Kodları: [**Example39**]()
+> Uygulamanın Kaynak Kodları: [**Example39**](/Examples/Example39)
 
 
 
@@ -3203,7 +3205,7 @@ Burada "Form1" sınıfının yapılandırıcısında formun arkaplanına tıklan
 
 
 
-Uygulamanın Kaynak Kodları: [**Example40**]()
+> Uygulamanın Kaynak Kodları: [**Example40**](/Examples/Example40)
 
 
 
@@ -3282,7 +3284,7 @@ class Program
 
 
 
-Uygulamanın Kaynak Kodları: [**Example41**]()
+> Uygulamanın Kaynak Kodları: [**Example41**](/Examples/Example41)
 
 
 
@@ -3317,7 +3319,7 @@ namespace FirstSpace
 }
 ```
 
-Uygulamanın Kaynak Kodları: [**Example48**]()
+> Uygulamanın Kaynak Kodları: [**Example48**](/Examples/Example48)
 
 
 
@@ -3357,7 +3359,7 @@ namespace SecondSpace
 
 
 
-Uygulamanın Kaynak Kodları: [**Example48**]()
+> Uygulamanın Kaynak Kodları: [**Example48**](/Examples/Example48)
 
 
 
@@ -3423,7 +3425,7 @@ Burada bir yapının iki farklı kullanım yöntemi görülmektedir. Birinci yö
 
 
 
-Uygulamanın Kaynak Kodları: [**Example50**]()
+> Uygulamanın Kaynak Kodları: [**Example50**](/Examples/Example50)
 
 
 
@@ -3459,7 +3461,7 @@ struct Coordinate
 }
 ```
 
-Uygulamanın Kaynak Kodları: [**Example50**]()
+> Uygulamanın Kaynak Kodları: [**Example50**](/Examples/Example50)
 
 
 
@@ -3519,7 +3521,7 @@ struct Edge
     }
 ```
 
-Uygulamanın Kaynak Kodları: [**Example50**]()
+> Uygulamanın Kaynak Kodları: [**Example50**](/Examples/Example50)
 
 
 
@@ -3591,7 +3593,7 @@ Edge aEdge = new Edge(0, 0, 0, 0);
 
 
 
-Uygulamanın Kaynak Kodları: [**Example50**]()
+> Uygulamanın Kaynak Kodları: [**Example50**](/Examples/Example50)
 
 
 
@@ -3630,7 +3632,7 @@ struct MyStruct : IHello
 
 
 
-Uygulamanın Kaynak Kodları: [**Example55**]()
+> Uygulamanın Kaynak Kodları: [**Example55**](/Examples/Example55)
 
 
 
@@ -3671,7 +3673,7 @@ doubleList.Add(5.5);
 
 Burada tanımladığımız "intList" listesine 51 değeri, "doubleList" listesine 5.5 değeri eklenmektedir.
 
-Uygulamanın Kaynak Kodları: [**Example51**]()
+> Uygulamanın Kaynak Kodları: [**Example51**](/Examples/Example51)
 
 
 
@@ -3779,7 +3781,7 @@ stringList[0] = "Melih";
 stringList[1] = "Hello World";
 ```
 
-Uygulamanın Kaynak Kodları: [**Example52**]()
+> Uygulamanın Kaynak Kodları: [**Example52**](/Examples/Example52)
 
 
 
@@ -3865,7 +3867,7 @@ class GenericArray<T>
 
 "swap" metodu "static" tanımlanmıştır.
 
-> Uygulamanın Kaynak Kodları: [**Example52**]()
+> Uygulamanın Kaynak Kodları: [**Example52**](/Examples/Example52)
 
 
 
@@ -3919,7 +3921,7 @@ Class1 class2 = new Class1("John", 35);
 swap(ref class1, ref class2);
 ```
 
-> Uygulamanın Kaynak Kodları: [**Example54**]()
+> Uygulamanın Kaynak Kodları: [**Example54**](/Examples/Example54)
 
 <div style="page-break-after: always; break-after: page;"></div>
 
