@@ -153,9 +153,9 @@
 
 ## Yapılandırıcılar (Constructors)
 
-Yapılandırıcı (constructor), bir nesne oluşturulduğu anda bu nesneyi ilk kullanıma hazırlar. Yapılandırıcı kendi sınıfı ile aynı isme sahiptir ve açık bir dönüş tipi yoktur. 
+Yapılandırıcı (constructor), bir nesne oluşturulduğu anda bu nesneyi ilk kullanıma hazırlar. Kendi sınıfı ile aynı isme sahiptir ve açık bir dönüş tipi yoktur. 
 
- Genellikle, bir sınıf tarafından tanımlanan değişkenlere ilk değer atarken kullanılır.
+Genellikle, bir sınıf tarafından tanımlanan değişkenlere ilk değer atarken kullanılır.
 
 
 
@@ -203,7 +203,7 @@ Bu uygulamada basılan butona göre kullanıcı verisi ekrana yazdırılmaktadı
 
 
 
-Sınıfta iki adet yapılandırıcı bulunmaktadır. Parametre almayan yapılandırıcı ile oluşturulan nesnede  John Doe, parametre ile oluşturulan nesnede kullanıcıdan alınan veriler ekrana yazdırılacaktır. Nesnenin hangi yapılandırıcı ile oluşturulacağı butonlara bağlıdır.
+Sınıfta iki adet yapılandırıcı bulunmaktadır. Parametre almayan yapılandırıcı ile oluşturulan nesnede  John Doe, parametre ile oluşturulan nesnede ise kullanıcıdan alınan veriler ekrana yazdırılacaktır. Nesnenin hangi yapılandırıcı ile oluşturulacağı butonlara bağlıdır.
 
 ```csharp
 public class User
@@ -309,7 +309,7 @@ var MainClass = new Main(this.Users); //nesne yaratıldı
 
 ### Statik Yapılandırıcı (Static Constructors)
 
-Bir yapılandırıcı başına 'static' eklenerek statik olarak tanımlanabilir. Statik yapılandırıcı, sınıftan yaratılmış nesneye değil de sınıfın niteliklerine başlangıç değeri atamak için kullanılır. İlk örnek nesne oluşturulmadan otomatik olarak çağrılır.
+Bir yapılandırıcı başına 'static' eklenerek statik olarak tanımlanabilir. Statik yapılandırıcı, sınıftan yaratılmış nesneye değil de sınıfın niteliklerine başlangıç değeri atamak için kullanılır. İlk örnek nesne oluşturulmadan önce otomatik olarak çağrılır.
 
 - Statik bir Oluşturucu erişim değiştiricileri almaz veya parametrelere sahip değildir.
 - Bir sınıf yalnızca bir statik oluşturucuya sahip olabilir.
@@ -904,7 +904,7 @@ Bu şekilde tanımlanan özellikler hem yazılıp hem okunabilirler. SET ve GET 
 
 #### Örnek 15
 
-Bu örnekte kullanıcıdan isim ve yaş bilgisi alınmakta, alınan yaş bilgisine göre de araba mı bisiklet mi sürebileceğini ekrana yazdırır. 
+Bu örnekte kullanıcıdan isim ve yaş bilgisi alınmakta, alınan yaş bilgisine göre de araba mı bisiklet mi sürebileceğini ekrana yazdırmakta. 
 
 
 
